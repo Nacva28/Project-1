@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left-side-weather {
+  height: auto;
+  width: 30%;
+  background-color: #1e213a;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+.right-side-weather {
+  height: auto;
+  width: 70%;
+  background-color: #100e1d;
+  position: relative;
+  display: flex;
+  padding: 10px 70px 0px 170px;
+  justify-content: center;
+  gap: 50px;
+  flex-direction: column;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.nav-left {
+  padding: 30px 30px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.search-btn {
+  width: 140px;
+  height: 40px;
+  background: #6e707a;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+.gps-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  background: #6e707a;
+}
+.main-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-weather-container {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(12, 11, 11);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.main-cels {
+  color: #fff;
+  color: #a09fb1;
+  display: flex;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 58.49999px;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-mean {
+  color: #a09fb1;
+  text-align: center;
+
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footer-day {
+  display: flex;
+  gap: 20px;
+}
+.right-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.day-weather {
+  background: #1e213a;
+  width: 160px;
+  height: 200px;
+  flex-shrink: 0;
+  padding: 20px 40px;
+}
+.inside-top-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.wind-status {
+  width: 488px;
+  height: 254px;
+  flex-shrink: 0;
+  background: #1e213a;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+  color: #e7e7eb;
+}
+.humidity {
+  width: 488px;
+  height: 254px;
+  flex-shrink: 0;
+  background: #1e213a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  color: #e7e7eb;
+}
+.humid-line-corrector {
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.humid-number-span {
+  display: flex;
+  justify-content: space-between;
+  color: #e7e7eb;
+}
+.percent-humid {
+  display: flex;
+  justify-content: flex-end;
+  color: #a09fb1;
+}
+
+.wind-humid {
+  display: flex;
+  gap: 60px;
+}
+
+.visib-airpre {
+  display: flex;
+  gap: 60px;
+  color: #e7e7eb;
+}
+
+.visibility {
+  width: 488px;
+  flex-shrink: 0;
+  background: #1e213a;
+  height: 147px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  color: #e7e7eb;
+}
+.air-pressure {
+  width: 488px;
+  flex-shrink: 0;
+  background: #1e213a;
+  height: 147px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  color: #e7e7eb;
+}
