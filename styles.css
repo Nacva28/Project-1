@@ -51,10 +51,22 @@
   align-items: center;
   justify-content: center;
 }
+.days-row {
+  color: #d3d3d5;
+  font-size: 13px;
+}
+.days-rows {
+  color: #d3d3d5;
+  font-size: 15px;
+  width: 100px;
+}
+.days-row-tomo {
+  color: #d3d3d5;
+  font-size: 16px;
+}
 .main-weather-container {
   width: 200px;
   height: 250px;
-  background-color: rgb(12, 11, 11);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,11 +114,16 @@
   height: 200px;
   flex-shrink: 0;
   padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 .inside-top-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .right-footer {
@@ -190,4 +207,29 @@
   gap: 20px;
   flex-direction: column;
   color: #e7e7eb;
+}
+#datetime-info {
+  color: #bfbec4;
+}
+.today {
+  color: #d3d3d5;
+}
+
+.country {
+  color: #e4e4eb;
+}
+.pressure-correct {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.wind-correct {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.visi-correct {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
