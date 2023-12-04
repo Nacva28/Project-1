@@ -24,17 +24,8 @@ const fetchWeatherData = async (lat, lon) => {
 
   function showError(error) {
     switch (error.code) {
-      case error.PERMISSION_DENIED:
-        alert("User denied the request for Geolocation.");
-        break;
-      case error.POSITION_UNAVAILABLE:
-        alert("Location information is unavailable.");
-        break;
-      case error.TIMEOUT:
-        alert("The request to get user location timed out.");
-        break;
-      case error.UNKNOWN_ERROR:
-        alert("An unknown error occurred.");
+      case error.PERMISSION:
+        alert("k");
         break;
     }
   }
@@ -67,7 +58,6 @@ const fetchWeatherData = async (lat, lon) => {
     document.querySelector(".weather-mean").innerHTML =
       currentDayWeatherCondition + " Sky";
 
-    // Display temperature for the following days starting from index 1
     for (
       let i = 1;
       i < data.list.length && i - 1 < temperatureList.length;
