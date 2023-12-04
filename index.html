@@ -13,11 +13,21 @@
       <div class="left-side-weather">
         <div class="nav-left">
           <button class="search-btn">Search for places</button>
-          <button id="demo" class="gps-btn">svg</button>
+          <button id="demo" class="gps-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <g clip-path="url(#a)">
+              <path fill="#E7E7EB" d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4Zm8.94 3A8.994 8.994 0 0 0 13 3.06V2c0-.55-.45-1-1-1s-1 .45-1 1v1.06A8.994 8.994 0 0 0 3.06 11H2c-.55 0-1 .45-1 1s.45 1 1 1h1.06A8.994 8.994 0 0 0 11 20.94V22c0 .55.45 1 1 1s1-.45 1-1v-1.06A8.994 8.994 0 0 0 20.94 13H22c.55 0 1-.45 1-1s-.45-1-1-1h-1.06ZM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7Z"/>
+            </g>
+            <defs>
+              <clipPath id="a">
+                <path fill="#fff" d="M0 0h24v24H0z"/>
+              </clipPath>
+            </defs>
+          </svg></button>
         </div>
         <div>
+
           <div class="main-left">
-            <div class="main-weather-container"><img src="./pictures/Clear.png" alt=""></div>
+            <div class="main-weather-container"><img class="weather-image" src="./pictures/Clear.png" alt="Weather Image 1"></div>
             <img
               style="
                 position: absolute;
@@ -50,27 +60,31 @@
         <div class="right-nav">
           <div class="day-weather">
             <div><h3 class="days-row">Tomorrow</h3></div>
-          <div><img width="60px"  src="./pictures/Hail.png" alt="#"></div>
+          <div><img class="weather-image" width="60px"  src="./pictures/Hail.png" alt="Weather Image 2"></div>
           <div class="inside-top-footer">
-            <div>
-            <h4>16℃</h2>
+            <div style="display: flex; color: aliceblue;">
+            <h4 class="temp1">16℃</h2>
+              <span>℃</span>
                 
             </div>
-            <div>
-                <h4>11℃</h4>
+            <div style="display: flex; color: aliceblue;">
+                <h4 class="low-temp">11℃</h4>
+                <span>℃</span>
             
         </div>
           </div>
         </div>
           <div class="day-weather"> <div class="days-row"><h3>Tomorrow</h3></div>
-          <div><img width="60px" src="./pictures/HeavyCloud.png" alt="#"></div>
+          <div><img class="weather-image" width="60px" src="./pictures/HeavyCloud.png" alt="#"></div>
           <div class="inside-top-footer">
-            <div>
-            <h4>16℃</h2>
+            <div style="display: flex; color: aliceblue;">
+            <h4 class="temp1">16℃</h2>
+              <span >℃</span>
                 
             </div>
-            <div>
-                <h4>11℃</h4>
+            <div style="display: flex; color: aliceblue;">
+                <h4 class="low-temp">11℃</h4>
+                <span>℃</span>
             
         </div>
           </div>
@@ -80,16 +94,16 @@
             <h3>Tomorrow</h3>
         </div>
           <div>
-            <img width="60px" src="./pictures/HeavyRain.png" alt="#">
+            <img width="60px" class="weather-image" src="./pictures/HeavyRain.png" alt="#">
         </div>
           <div class="inside-top-footer">
-            <div>
-            <h4>16℃</h2>
-                
+            <div style="display: flex; color: aliceblue;">
+            <h4 class="temp1">16℃</h2>
+              <span>℃</span>
             </div>
-            <div>
-                <h4>11℃</h4>
-            
+            <div style="display: flex; color: aliceblue;">
+                <h4 class="low-temp">11℃</h4>
+                <span>℃</span>
         </div>
           </div>
         </div>
@@ -97,29 +111,30 @@
             <h3>Tomorrow</h3>
         </div>
           <div>
-            <img width="60px" src="./pictures/Sleet.png" alt="#">
+            <img class="weather-image" width="60px" src="./pictures/Sleet.png" alt="#">
         </div>
           <div class="inside-top-footer">
-            <div>
-            <h4>16℃</h2>
+            <div style="display: flex; color: aliceblue;">
+            <h4 class="temp1">16</h2>
+              <span>℃</span>
                 
             </div>
-            <div>
-                <h4>11℃</h4>
-            
+            <div style="display: flex; color: aliceblue;">
+                <h4 class="low-temp">11℃</h4>
+                <span>℃</span>
         </div>
           </div>
         </div>
           <div class="day-weather"> <div class="days-rows"><h3>Tomorrow</h3></div>
-          <div><img width="60px" src="./pictures/Thunderstorm.png" alt="#"></div>
+          <div><img class="weather-image" width="60px" src="./pictures/Thunderstorm.png" alt="#"></div>
           <div class="inside-top-footer">
-            <div>
-            <h4>16℃</h2>
-                
+            <div style="display: flex; color: aliceblue;">
+            <h4 class="temp1">16℃</h2>
+              <span>℃</span>
             </div>
-            <div>
-                <h4>11℃</h4>
-            
+            <div style="display: flex; color: aliceblue;">
+                <h4 class="low-temp">11℃</h4>
+                <span>℃</span>
         </div>
           </div>
         </div>
@@ -139,15 +154,7 @@
         <h2>WSW</h2></div>
             <div class="humidity"><h2>Humidity</h2>
                 <h1 class="hum"style="font-size: 70px;">84%</h1>
-                <!-- <div class="humid-line-corrector">  -->
-                    <!-- <div class="humid-number-span">
-                        <span>0</span><span>50</span><span>100</span></div>
-                    <div 
-                    style="width: 229px;
-                height: 8px;
-                flex-shrink: 0;border-radius: 80px;
-background: #E7E7EB;">
-</div> -->
+                
 <div class="percent-humid">%</div>
 </div>
             </div>
